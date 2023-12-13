@@ -1,6 +1,6 @@
-## Arafat MIS
+## arafat mis
 
-test app 
+app for test
 
 #### License
 

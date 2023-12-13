@@ -1,7 +1,7 @@
 app_name = "arafat_mis"
-app_title = "Arafat MIS"
+app_title = "arafat mis"
 app_publisher = "arafat"
-app_description = "test app "
+app_description = "app for test"
 app_email = "a.saeed@prositeyemen.com"
 app_license = "mit"
 # required_apps = []
