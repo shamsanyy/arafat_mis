@@ -1,0 +1,91 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-13 12:10:43.986762",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tab_2_tab",
+  "book_id",
+  "book_name",
+  "book_auther",
+  "book_classification",
+  "publisher_name",
+  "data_classficationname",
+  "full_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Book Transaction"
+  },
+  {
+   "fieldname": "book_id",
+   "fieldtype": "Data",
+   "label": "Book id"
+  },
+  {
+   "fieldname": "book_name",
+   "fieldtype": "Data",
+   "label": "Book Name"
+  },
+  {
+   "fieldname": "book_auther",
+   "fieldtype": "Date",
+   "label": "Book Auther"
+  },
+  {
+   "fieldname": "book_classification",
+   "fieldtype": "Select",
+   "label": "Book Classification",
+   "options": "Science\nHistory\nMathimatics"
+  },
+  {
+   "fieldname": "publisher_name",
+   "fieldtype": "Data",
+   "label": "Publisher Name"
+  },
+  {
+   "fieldname": "data_classficationname",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Classification Name",
+   "options": "Book Classfication",
+   "reqd": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Link",
+   "label": "Beneficiary Name",
+   "options": "Library Beneficiary",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-24 11:54:57.451637",
+ "modified_by": "Administrator",
+ "module": "Library Managment",
+ "name": "Library Transaction",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "full_name"
+}

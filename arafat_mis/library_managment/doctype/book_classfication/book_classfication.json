@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-12-16 10:02:29.712593",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "classification_id",
+  "classifications_name"
+ ],
+ "fields": [
+  {
+   "fieldname": "classification_id",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Classification Id",
+   "reqd": 1
+  },
+  {
+   "fieldname": "classifications_name",
+   "fieldtype": "Data",
+   "label": "Classifications Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-12-24 11:55:11.301005",
+ "modified_by": "Administrator",
+ "module": "Library Managment",
+ "name": "Book Classfication",
+ "naming_rule": "Autoincrement",
+ "nsm_parent_field": "parent_book_classfication",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "show_title_field_in_link": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "classifications_name"
+}
